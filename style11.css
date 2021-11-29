@@ -1,0 +1,72 @@
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+    color: white;
+  }
+  
+
+  body
+  {
+    margin-top: 10%;
+    width: 100%;
+  } 
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+header .logo {
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2 px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+    background: white;
+    color: black;
+
+}
+h1
+{
+    font-size: 20px;
+    font-style: italic;
+}
+.images
+{
+    position: center;
+    border-radius: 5%;
+}

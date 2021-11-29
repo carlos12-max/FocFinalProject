@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h4{
+      font-size: 35px;
+      padding: 30px;
+      margin-top: 2%;
+      font-family: cursive;
+      margin-left: 35%;
+  }
+
+  h6{
+      font-size: 29px;
+      font-style: italic;
+     align-items: center;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .features figure img{
+    border-radius: 5%;
+    box-shadow: rgb(138, 138, 138) 10px 10px 10px;
+    margin-top: -2%;
+    float: left;
+
+}
+  
+  h1{
+      font-size: 23px;
+      font-family:'Times New Roman', Times, serif;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 15%;
+    /*height: 300px;  only for demonstration, should be removed */
+    background: #FFFFFF;
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #FFFFFF;
+    /* height: 300px;  only for demonstration, should be removed */
+  }
+  
+  /* Clear floats after the columns */
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.wrapper{
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    -webkit-backdrop-size: cover;
+    background-position: fixed;
+    padding: 4em;
+    background-image: url(bg.jpg);
+    -webkit-backdrop-size: cover;
+    background-position: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}  
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+header .logo {
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2 px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+    background: white;
+    color: black;
+
+}
+
+.title{
+    padding: 130px;
+    font-size: 25px;
+}
